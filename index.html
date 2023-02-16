@@ -1,0 +1,41 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="google" content="notranslate">
+    <script>
+      // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+      if (
+        localStorage.theme === "dark" ||
+        (!("theme" in localStorage) &&
+          window.matchMedia("(prefers-color-scheme: dark)").matches)
+      ) {
+        document.documentElement.classList.add("dark");
+      } else {
+        document.documentElement.classList.remove("dark");
+      }
+    </script>
+    <title>Youtube Search</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="icon" href="/youtube_search/favicon-faad897ff352c916.png">
+    <link rel="stylesheet" href="/youtube_search/tailwind-59243661ef743eb9.css">
+    
+    
+  
+<link rel="preload" href="/youtube_search/youtube_search-9c6940a909cd8255_bg.wasm" as="fetch" type="application/wasm" crossorigin="">
+<link rel="modulepreload" href="/youtube_search/youtube_search-9c6940a909cd8255.js"></head>
+  <body>
+
+
+
+
+
+<script type="module">import init from '/youtube_search/youtube_search-9c6940a909cd8255.js';init('/youtube_search/youtube_search-9c6940a909cd8255_bg.wasm');</script></body></html><!-- 
+	    Fuentes online para Yew:
+	    https://fonts.google.com/
+	    https://www.onlinewebfonts.com/top
+    --><!--<link
+      href="//db.onlinewebfonts.com/c/d5b6d2ffa32b2770c4cd23e6b34fe8ad?family=Kanit+Light"
+      rel="stylesheet"
+      type="text/css"
+    />--><!-- COPIAR UN ASSETS A LA CARPETA DIST:
+      https://trunkrs.dev/assets/#copy-file
+    -->
