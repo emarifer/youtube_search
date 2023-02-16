@@ -1,0 +1,6 @@
+dist
+static/tailwind.css
+node_modules
+target
+src/env.rs
+**.swp
